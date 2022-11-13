@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar color =primary>
+    <ion-button slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-button>
+    <ion-title>Action-Sheet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-button (click)="presentActionSheet()">Open</ion-button>
+    <code *ngIf="result"> {{ result }} </code>
+  </div>
+</ion-content>

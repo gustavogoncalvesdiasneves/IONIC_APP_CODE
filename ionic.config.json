@@ -1,0 +1,7 @@
+{
+  "name": "app4(SideMenu)",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
